@@ -1,0 +1,108 @@
+<html>
+  <header>
+    <head><title> Peter McKinley's Recipe </title></head>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Appacademylogo.png/175px-Appacademylogo.png" alt="app-academy-logo"/>
+    <nav>
+      <ul>
+        <li><a href = "#Description">Description</a></li>
+        <li><a href= "#Ingredients">Ingredients</a></li>
+        <li><a href= "#Directions">Directions!</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <aside>
+    <h2>Ingredients</h2>
+    <ul>
+      <li>2lb Bananas </li>
+      <li> 10lb Whey </li>
+      <li> 3lb Blueberries </li>
+      <li> 2lb Kale </li>
+      <li> 5lb Frozen Strawberries </li>
+    </ul>
+  </aside>
+
+  <br/>
+
+  <section>
+    <figure><img src="http://appforhealth.com/wp-content/uploads/2011/07/internalsmoothie.jpg"/></figure>
+    <figcaption><h2><a href= "https://en.wikipedia.org/wiki/Health_shake">SHAKE SHAKE SHAKE</a></h2></figcaption>
+    <body>
+      <h1> This Boy Don't Cook </h1>
+
+      <h2> Morning Shake </h2>
+
+      <h2> Description </h2>
+      <p> What better meal for someone who can't cook than a meal that doesn't require preparation! </p>
+
+      <h2>Ingredients</h2>
+      <ul>
+        <li>2lb Bananas </li>
+        <li> 10lb Whey </li>
+        <li> 3lb Blueberries </li>
+        <li> 2lb Kale </li>
+        <li> 5lb Frozen Strawberries </li>
+      </ul>
+
+      <h2> Directions! </h2>
+      <ol>
+        <li>Put it all in a blender</li>
+        <li>Press the button</li>
+        <li>Drink it straight from the blender!</li>
+      </ol>
+    </body>
+  </section>
+
+  <section id="reviews">
+    <form action="/reviews" method"post">
+      <label for="name">Name</label>
+      <input id="name" type="text" name="name">
+
+      <br>
+      <br>
+
+      <label for="rating">Rating</label>
+      1<input type="radio" name="rating" value="1" checked>
+      2<input type="radio" name="rating" value="2">
+      3<input type="radio" name="rating" value="3">
+      4<input type="radio" name="rating" value="4">
+      5<input type="radio" name="rating" value="5">
+
+      <br>
+      <br>
+
+      <label for="expertise">Cooking Expertise</label>
+
+      <select id="expertise" name="expertise">
+        <option value="Select Cooking Expertise" disabled="true" selected="true">Select Cooking Expertise</option>
+
+        <option value="amazing">I'M THE DONALD TRUMP OF COOKING</option>
+
+        <option value="great">MY BEST DISH IS JAM ON EGGS</option>
+
+        <option value="ok">I cook better than you do</option>
+
+        <option value="bad">Cook better than some</option>
+
+        <option value="terrible">I have 3 michelin stars</option>
+      </select>
+
+      </br>
+
+      <label>Review
+        <br>
+        <textarea name="review" cols="30" rows="10"></textarea>
+      </label>
+
+      <input type="submit" value="Submit Review">
+    </form>
+  </section>
+
+
+
+
+  <footer><p>I made this</p></footer>
+
+    <!-- All credits to me. I made this myself (I mean, did Chick fil A really invent the chicken sandwich?/-->
+
+</html>
